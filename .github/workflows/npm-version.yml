@@ -15,11 +15,13 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GH_ORG_PAT }}
-          email: ${{ vars.GH_ORG_EMAIL }}
-          name: ${{ vars.GH_ORG_NAME }}
       - uses: actions/setup-node@v3
         with:
           node-version: lts/*
+      - name: Git config
+        run: |
+          git config --global user.email "${{ vars.GH_ORG_EMAIL }}"
+          git config --global user.name: "${{ vars.GH_ORG_NAME }}"
       - name: Apply version bump (major)
         if: contains(github.event.pull_request.labels.*.name, 'major')
         run: npm version major
