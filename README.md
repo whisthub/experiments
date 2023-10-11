@@ -6,14 +6,17 @@ meta:
     - Two
 ```
 
+```js setup
+import Component from './component.vue';
+function hello() {
+  return 'hello world';
+}
+```
+
 # This is markdown
 
-It has script tags inside it. How does it render?
+Render a component here: <component />
 
-<component />
+Cool.
 
-<script>
-export default function hello() {
-  console.log('hello world');
-}
-</script>
+Now say hello: {{ hello() }}
