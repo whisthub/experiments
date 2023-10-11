@@ -20,3 +20,5 @@ Render a component here: <component />
 Cool. 👍 ✅ 👎
 
 Now say hello: {{ hello() }}
+
+<!-- This will be hidden from the markdown -->
