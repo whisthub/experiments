@@ -1,4 +1,10 @@
-import Component from './component.vue';
+```yaml
+title: This is the readme
+meta:
+  keywords:
+    - One
+    - Two
+```
 
 # This is markdown
 
