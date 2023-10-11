@@ -17,6 +17,6 @@ function hello() {
 
 Render a component here: <component />
 
-Cool.
+Cool. 👍 ✅ 👎
 
 Now say hello: {{ hello() }}
