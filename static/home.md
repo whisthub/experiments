@@ -1,4 +1,4 @@
-Welcome to my website!
+# Welcome to my website!
 
 This website is entirely generated with Markdown.
 Not sure how that's possible?
