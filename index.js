@@ -1,1 +1,1 @@
-console.log('0.1.0');
+console.log('This should do nothing');
