@@ -1,1 +1,1 @@
-console.log('This should bump the version in a PR');
+console.log('0.1.0');
